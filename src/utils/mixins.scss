@@ -1,0 +1,73 @@
+// Cards animation
+@mixin card-animation {
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity $card-animation-duration ease-in-out;
+    
+    &:nth-child(1) {
+      transition-delay: 0s;
+    }
+    
+    &:nth-child(2) {
+      transition-delay: $card-animation-delay;
+    }
+    
+    &:nth-child(3) {
+      transition-delay: $card-animation-delay * 2;
+    }
+  }
+  
+  &.active img {
+    opacity: 1;
+  }
+}
+
+// Text and images in about section animation
+@mixin about-animation($direction) {
+  .image,
+  .text {
+    opacity: 0;
+    transition: opacity $about-animation-duration ease-out;
+    
+    &.fade-in-#{$direction} {
+      transform: translateX(if($direction == 'left', -50px, 50px));
+    }
+  }
+}
+
+
+// Text mixins
+@mixin text-styles($desktop, $tablet, $mobile, $weight, $line-height-desktop, $line-height-tablet, $line-height-mobile) {
+  font-size: $mobile;
+  font-weight: $weight;
+  line-height: $line-height-mobile;
+
+  @media (min-width: 768px) {
+    font-size: $tablet;
+    line-height: $line-height-tablet;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: $desktop;
+    line-height: $line-height-desktop;
+  }
+}
+// Text types mixins
+@mixin headline {
+  @include text-styles(48px, 32px, 24px, $font-weight-medium, 133%, 125%, 133%);
+}
+
+@mixin lead {
+  @include text-styles(32px, 32px, 20px, $font-weight-medium, 138%, 138%, 140%);
+}
+
+@mixin buttons {
+  @include text-styles(16px, 16px, 14px, $font-weight-medium, 150%, 150%, 143%);
+}
+
+@mixin text {
+  @include text-styles(20px, 20px, 16px, $font-weight-regular, 160%, 160%, 150%);
+}
