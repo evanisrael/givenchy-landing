@@ -1,9 +1,4 @@
 .about__animation {
   opacity: 1;
-  transform: translateX(0);
   transition: opacity 300ms ease-out, transform 300ms ease-out;
 }
-
-// .about__second-part .about__animation {
-//   transform: translateX(0);
-// }
