@@ -1,0 +1,5 @@
+.about__animation_third {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
