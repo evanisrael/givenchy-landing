@@ -1,0 +1,6 @@
+.about__subtitle {
+  @include text;
+  color: $black;
+  width: 50%;
+  margin: 0;
+}

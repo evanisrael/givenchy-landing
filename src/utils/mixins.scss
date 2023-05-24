@@ -26,17 +26,7 @@
 }
 
 // Text and images in about section animation
-@mixin about-animation($direction) {
-  .image,
-  .text {
-    opacity: 0;
-    transition: opacity $about-animation-duration ease-out;
-    
-    &.fade-in-#{$direction} {
-      transform: translateX(if($direction == 'left', -50px, 50px));
-    }
-  }
-}
+
 
 
 // Text mixins
