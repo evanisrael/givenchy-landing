@@ -1,0 +1,15 @@
+.header__button_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  gap: 16px;
+  padding: 20px 0 0 20px;
+  position: absolute;
+  top: 0;
+
+  // &:hover {
+  //   color: $white;
+  //   transition: color 0.2s ease-in-out;
+  // }
+}

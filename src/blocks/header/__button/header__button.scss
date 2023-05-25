@@ -1,0 +1,12 @@
+.header__button {
+  @include buttons;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    filter: invert(100%);
+    transition: filter 0.2s ease-in-out;
+  }
+}
