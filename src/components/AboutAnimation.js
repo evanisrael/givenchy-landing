@@ -35,6 +35,7 @@ class AboutAnimation {
     ];
   }
 
+  // Check if the element is on the screen
   _isElementVisible(element) {
     const rect = element.getBoundingClientRect();
     const windowHeight = window.innerHeight;
