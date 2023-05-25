@@ -1,0 +1,19 @@
+.footer__checkbox-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px; /* Замените на нужную ширину */
+  height: 20px; /* Замените на нужную высоту */
+  background-image: url("./../images/empty.svg"); /* Изображение для пустого чекбокса */
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: invert(100%);
+}
+
+.footer__checkbox-label:hover .checkbox-image {
+  
+}
+
+.footer__checkbox-label input[type="checkbox"]:checked + .checkbox-icon {
+  background-image: url("./../images/filled.svg");
+}

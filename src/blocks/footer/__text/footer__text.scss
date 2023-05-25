@@ -1,0 +1,6 @@
+.footer__text {
+  @include text;
+  color: $white;
+  text-align: center;
+  margin: 0;
+}

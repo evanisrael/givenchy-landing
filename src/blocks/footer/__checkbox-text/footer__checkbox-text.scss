@@ -1,0 +1,9 @@
+.footer__checkbox-text {
+  @include buttons;
+  font-weight: 400;
+}
+
+.footer__checkbox-text input {
+  position: absolute;
+  opacity: 0;
+}

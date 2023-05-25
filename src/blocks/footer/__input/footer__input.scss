@@ -1,0 +1,11 @@
+.footer__input {
+  color: $grey;
+  background-color: $black;
+  padding: 12px 24px;
+  border: 0.5px solid $white;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}

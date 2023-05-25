@@ -12,7 +12,6 @@
 <body class="body">
 
   <div class="page">
-
     <header class="header">
       <div class="header__container">
         <button class="header__button header__button_menu">
@@ -30,7 +29,6 @@
         </div>
       </div>
     </header>
-
     <main class="content">
       <section class="about">
         <div class="about__container">
@@ -76,7 +74,23 @@
     </main>
 
     <footer class="footer">
-      <!-- Footer Code -->
+      <div class="footer__container">
+        <p class="footer__text">Subscribe to the newsletter and be the first to know about new collection’s drop date and news</p>
+        <form class="footer__form">
+          <fieldset class="footer__fieldset">
+            <div class="footer__submit-container">
+              <input type="text" placeholder="Enter your email here" id="email" name="email" class="footer__input">
+              <button class="footer__button">Submit</button>
+            </div>
+            <label for="agree" class="footer__checkbox-label">
+              <input type="checkbox" id="agree" name="agree" class="footer__checkbox">
+              <span class="checkbox-image"></span>
+            </label>
+            <label class="footer__checkbox-text" for="agree">I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the Privacy Policy</label>
+          </fieldset>
+        </form>
+        <p class="footer__text">© 2021, Givenchy. Some rights reserved</p>
+      </div>
     </footer>
 
   </div>
