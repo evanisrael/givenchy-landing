@@ -1,0 +1,9 @@
+.looks__title {
+  @include headline;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $black;
+  width: 50%;
+  margin: 0;
+  padding-bottom: 40px;
+}
