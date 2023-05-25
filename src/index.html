@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Givenchy Collection Spring Summer 2021 Landing Page">
+  <meta name="description" content="">
   <meta name="keywords" content="Givenchy">
   <meta name="author" content="Evan Israel"
-  <title>Givenchy Collection Spring Summer 2021</title>
+  <title></title>
 </head>
 
 <body class="body">
@@ -14,11 +14,24 @@
   <div class="page">
 
     <header class="header">
-      <!-- Header Code -->
+      <div class="header__container">
+        <button class="header__button header__button_menu">
+          <img class="header__button-image" src="<%=require('./images/menu-icon.svg')%>">
+          Menu
+        </button>
+        <img class="header__image" src="<%=require('./images/header-man.svg')%>">
+        <div class="header__text-container">
+          <h1 class="header__title">
+            <span>GIVENCHY</span>
+            <span>SPRING SUMMER 2021</span>
+            <span>BY MATTHEW M. WILLIAMS</span>
+          </h1>
+          <button class="header__button header__button_subscribe">Subscribe to collection’s news</button>
+        </div>
+      </div>
     </header>
 
     <main class="content">
-      
       <section class="about">
         <div class="about__container">
           <div class="about__title-container">
@@ -60,7 +73,6 @@
           <img src="<%=require('./images/looks8.svg')%>">
         </div>
       </section>
-
     </main>
 
     <footer class="footer">
