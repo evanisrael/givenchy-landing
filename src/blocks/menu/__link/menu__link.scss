@@ -1,0 +1,9 @@
+.menu__link {
+  text-align: center;
+  
+  &:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
