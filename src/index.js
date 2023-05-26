@@ -23,3 +23,22 @@ headerButton.addEventListener('click', (event) => {
   event.stopPropagation();
   menu.openMenu(event);
 });
+
+
+// Header Subscribe button behavior
+const subscribeButton = document.querySelector('#subscribe');
+const emailInput = document.querySelector('#email');
+
+subscribeButton.addEventListener('click', () => {
+  emailInput.scrollIntoView({ behavior: 'smooth' });
+  emailInput.focus();
+});
+
+
+// Submit button behavior
+const footerForm = document.querySelector('#form');
+
+footerForm.addEventListener('submit', (evt) =>{
+  evt.preventDefault();
+});
+

@@ -20,10 +20,43 @@ export default class Menu {
       this.headerButton.parentNode.insertBefore(this.menuContainer, this.headerButton);
       this.menuButton = this.menuContainer.querySelector('.menu__button');
       this.menuButton.addEventListener('click', this._closeMenu);
+
+      this._addLinksBehavior();
     }
 
     this.menuContainer.style.display = 'block';
     document.addEventListener('click', this._handleOutsideClick);
+  }
+
+  _addLinksBehavior() {
+    if (this.menuContainer) {
+      const aboutLink = this.menuContainer.querySelector('#about-link');
+      const looksLink = this.menuContainer.querySelector('#looks-link');
+      const subscribeLink = this.menuContainer.querySelector('#subscribe-link');
+      const aboutSection = document.querySelector('.about');
+      const looksSection = document.querySelector('.looks');
+      const emailInput = document.querySelector('#email');
+
+      const closeMenu = () => {
+        this._closeMenu();
+      };
+
+      aboutLink.addEventListener('click', function() {
+        aboutSection.scrollIntoView({ behavior: 'smooth' });
+        closeMenu();
+      });
+
+      looksLink.addEventListener('click', function() {
+        looksSection.scrollIntoView({ behavior: 'smooth' });
+        closeMenu();
+      });
+
+      subscribeLink.addEventListener('click', function() {
+        emailInput.scrollIntoView({ behavior: 'smooth' });
+        emailInput.focus();
+        closeMenu();
+      });
+    }
   }
 
   _closeMenu() {
