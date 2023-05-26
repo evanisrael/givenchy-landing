@@ -13,18 +13,3 @@ aboutAnimation.start();
 // Looks section animation initialization
 const looksAnimation = new LooksAnimation('.looks__image-container', 'img');
 looksAnimation.startAnimation();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
