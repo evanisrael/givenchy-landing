@@ -25,7 +25,7 @@
             <span>SPRING SUMMER 2021</span>
             <span>BY MATTHEW M. WILLIAMS</span>
           </h1>
-          <button class="header__button header__button_subscribe">Subscribe to collection’s news</button>
+          <button class="header__button header__button_subscribe" id="subscribe">Subscribe to collection’s news</button>
         </div>
       </div>
     </header>
@@ -75,10 +75,10 @@
     <footer class="footer">
       <div class="footer__container">
         <p class="footer__text">Subscribe to the newsletter and be the first to know about new collection’s drop date and news</p>
-        <form class="footer__form">
+        <form class="footer__form" id="form">
           <fieldset class="footer__fieldset">
             <div class="footer__submit-container">
-              <input type="text" placeholder="Enter your email here" id="email" name="email" class="footer__input">
+              <input type="text" placeholder="Enter your email here" id="email" name="email" class="footer__input" required>
               <button class="footer__button">Submit</button>
             </div>
             <div class="footer__checkbox-container">
@@ -96,9 +96,9 @@
         <div class="menu__container">
           <button class="menu__button"></button>
           <nav class="menu__links">
-            <a class="menu__link">ABOUT</a>
-            <a class="menu__link">LOOKS</a>
-            <a class="menu__link">SUBSCRIBE</a>
+            <a class="menu__link" id="about-link">ABOUT</a>
+            <a class="menu__link" id="looks-link">LOOKS</a>
+            <a class="menu__link" id="subscribe-link">SUBSCRIBE</a>
           </nav>
         </div>
       </div>
