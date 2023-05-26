@@ -14,7 +14,7 @@ class AboutAnimation {
       },
       {
         id: 'about-img3',
-        initialTranslateX: 175,
+        initialTranslateX: 100,
         visibleTranslateX: 0
       },
       {
@@ -24,7 +24,7 @@ class AboutAnimation {
       },
       {
         id: 'about-text2',
-        initialTranslateX: 175,
+        initialTranslateX: 100,
         visibleTranslateX: 0
       },
       {

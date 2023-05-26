@@ -1,11 +1,9 @@
 .footer__checkbox-label {
   position: relative;
-  padding-left: 25px; /* Расстояние между изображением и текстом */
+  min-width: 20px;
+  height: 20px;
+  background-image: url(./../images/empty.svg);
+  background-size: cover;
   cursor: pointer;
-}
-
-.footer__checkbox-label input[type="checkbox"] {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
+  filter: invert(100%);
 }
