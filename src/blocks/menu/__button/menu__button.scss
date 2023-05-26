@@ -8,10 +8,18 @@
   border: none;
   background-color: $black;
   padding: 0;
+  position: absolute;
+  top: 20px;
 
   &:hover {
     cursor: pointer;
     opacity: 0.6;
     transition: opacity 0.3s ease-in-out;
+  }
+
+  @media screen and (max-width: 767px) {
+    max-height: 24px;
+    max-width: 24px;
+    left: 20px;
   }
 }
