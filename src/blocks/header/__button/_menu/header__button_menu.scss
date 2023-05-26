@@ -7,4 +7,9 @@
   padding: 20px 0 0 20px;
   position: absolute;
   top: 0;
+
+  @media screen and (max-width: 767px) {
+    max-width: 24px;
+    max-height: 24px;
+  }
 }

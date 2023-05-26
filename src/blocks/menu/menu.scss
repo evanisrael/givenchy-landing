@@ -8,5 +8,13 @@
   display: block;
   position: absolute;
   z-index: 200;
-  min-height: 900px;
+  top: 0;
+
+  @media screen and (max-width: 1439px) {
+    max-height: inherit;
+  }
+
+  @media screen and (max-width: 767px) {
+    max-height: 360px;
+  }
 }

@@ -5,10 +5,25 @@
   max-width: 700px;
   margin: 0;
   opacity: 0;
+
+  @media screen and (max-width: 1439px) {
+    max-width: 364px;
+  }
 }
+
+#about-text2 {
+  @media screen and (max-width: 1439px) {
+    max-width: 373px;
+  }
+}
+
 
 #about-text3 {
   position: absolute;
   left: 0;
   z-index: 9;
+
+  @media screen and (max-width: 767px) {
+    position: initial;
+  }
 }

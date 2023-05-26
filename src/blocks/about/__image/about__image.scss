@@ -1,3 +1,39 @@
 .about__image {
   opacity: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#about-img1 {
+  @media screen and (max-width: 1439px) {
+    max-width: 364px;
+    max-height: 452px;
+    right: 54px;
+  }
+
+  @media screen and (max-width: 767px) {
+    max-width: 280px;
+  }
+}
+
+#about-img2 {
+  @media screen and (max-width: 1439px) {
+    max-width: 304px;
+    max-height: 304px;
+  }
+
+  @media screen and (max-width: 767px) {
+    max-width: 280px;
+  }
+}
+
+#about-img3 {
+  @media screen and (max-width: 1439px) {
+    max-width: 485px;
+    max-height: 607px;
+  }
+
+  @media screen and (max-width: 767px) {
+    max-width: 280px;
+  }
 }

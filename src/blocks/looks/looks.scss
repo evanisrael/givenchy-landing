@@ -1,3 +1,11 @@
 .looks {
   padding: 0 20px 80px 20px;
+
+  @media screen and (max-width: 1439px) {
+    padding: 0 20px 60px 20px;
+  }
+
+  @media screen and (max-width: 767px) {
+    padding: 0 20px 40px 20px;
+  }
 }

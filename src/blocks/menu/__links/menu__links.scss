@@ -3,5 +3,16 @@
   flex-direction: column;
   gap: 80px;
   justify-content: center;
-  height: 772px;
+
+  @media screen and (max-width: 1439px) {
+    max-height: 772px;
+    max-width: 440px;
+  }
+
+  @media screen and (max-width: 767px) {
+    align-self: center;
+    max-height: 280px;
+    max-width: 296px;
+    gap: 40px;
+  }
 }
