@@ -8,6 +8,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     max-width: 729px;
+    margin: 0 auto;
   }
 
   @media screen and (max-width: 767px) {
@@ -31,10 +32,18 @@
   @media screen and (max-width: 1439px) {
     display: none;
   }
+
+  @media screen and (max-width: 767px) {
+    display: grid;
+  }
 }
 
 .looks__image-container #looks-image-8 {
   @media screen and (max-width: 1439px) {
     display: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    display: grid;
   }
 }
