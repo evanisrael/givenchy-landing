@@ -3,6 +3,10 @@
   flex-direction: column;
   gap: 80px;
 
+  @media screen and (max-width: 1439px) {
+    gap: 70px;
+  }
+  
   @media screen and (max-width: 767px) {
     gap: 40px;
   }
