@@ -1,12 +1,10 @@
 .footer__submit-container {
   display: flex;
   flex-direction: row;
-  max-height: 48px;
   max-width: 100%;
 
   @media screen and (max-width: 767px) {
     flex-direction: column;
     max-width: 280px;
-    max-height: 88px;
   }
 }
