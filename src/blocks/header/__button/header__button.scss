@@ -10,10 +10,3 @@
     transition: filter 0.2s ease-in-out;
   }
 }
-
-.header__button img {
-  @media screen and (max-width: 767px) {
-    max-width: 24px;
-    max-height: 24px;
-  }
-}

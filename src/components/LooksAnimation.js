@@ -28,9 +28,9 @@ class LooksAnimation {
 
     this.images.forEach((image, index) => {
       if (imageIndices.includes(index)) {
-        image.classList.add('show');
+        image.classList.add('looks__image_show');
       } else {
-        image.classList.remove('show');
+        image.classList.remove('looks__image_show');
       }
     });
 
