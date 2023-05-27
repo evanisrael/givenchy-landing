@@ -1,6 +1,8 @@
 .menu__link {
   text-align: center;
   @include text;
+  text-decoration: none;
+  color: $white;
   
   &:hover {
     cursor: pointer;
