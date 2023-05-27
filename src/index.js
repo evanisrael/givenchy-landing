@@ -12,7 +12,7 @@ aboutAnimation.start();
 
 
 // Looks section animation initialization
-const looksAnimation = new LooksAnimation('.looks__image-container', 'img');
+const looksAnimation = new LooksAnimation('.looks__image-container', '.looks__image');
 looksAnimation.startAnimation();
 
 // Menu initialization

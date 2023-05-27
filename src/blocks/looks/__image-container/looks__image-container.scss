@@ -17,33 +17,3 @@
     max-width: 729px;
   }
 }
-
-.looks__image-container img {
-  width: 100%;
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-.looks__image-container .show {
-  opacity: 1;
-}
-
-.looks__image-container #looks-image-7 {
-  @media screen and (max-width: 1439px) {
-    display: none;
-  }
-
-  @media screen and (max-width: 767px) {
-    display: grid;
-  }
-}
-
-.looks__image-container #looks-image-8 {
-  @media screen and (max-width: 1439px) {
-    display: none;
-  }
-
-  @media screen and (max-width: 767px) {
-    display: grid;
-  }
-}
