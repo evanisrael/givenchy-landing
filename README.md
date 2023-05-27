@@ -6,7 +6,7 @@
 
 
 
-
+#Макет: https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?type=design&node-id=6-1780&t=9q6YUSsw5WeECh7y-0
 
 ## Welcome To The Givenchy Spring Summer 2021 Landing Page Project!
 
