@@ -42,16 +42,19 @@ export default class Menu {
       };
 
       aboutLink.addEventListener('click', function() {
+        event.preventDefault();
         aboutSection.scrollIntoView({ behavior: 'smooth' });
         closeMenu();
       });
 
       looksLink.addEventListener('click', function() {
+        event.preventDefault();
         looksSection.scrollIntoView({ behavior: 'smooth' });
         closeMenu();
       });
 
       subscribeLink.addEventListener('click', function() {
+        event.preventDefault();
         emailInput.scrollIntoView({ behavior: 'smooth' });
         emailInput.focus();
         closeMenu();
