@@ -16,8 +16,8 @@ const looksAnimation = new LooksAnimation('.looks__image-container', '.looks__im
 looksAnimation.startAnimation();
 
 // Menu initialization
-const menu = new Menu('.header__button_menu', 'menu');
-const headerButton = document.querySelector('.header__button_menu');
+const menu = new Menu('.header__menu-button', 'menu');
+const headerButton = document.querySelector('.header__menu-button');
 
 headerButton.addEventListener('click', (event) => {
   event.stopPropagation();
