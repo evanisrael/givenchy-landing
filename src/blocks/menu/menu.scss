@@ -6,7 +6,7 @@
   @include buttons;
   min-height: 100vh;
   display: block;
-  position: absolute;
+  position: fixed;
   z-index: 200;
   top: 0;
 }
