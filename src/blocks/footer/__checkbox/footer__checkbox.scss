@@ -1,7 +1,3 @@
 .footer__checkbox {
   display: none;
-
-  &:checked + .footer__checkbox-label {
-    background-image: url(./../images/filled.svg);
-  }
 }

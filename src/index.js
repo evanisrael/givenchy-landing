@@ -42,3 +42,15 @@ footerForm.addEventListener('submit', (evt) =>{
   evt.preventDefault();
 });
 
+// Checkbox stylization
+const checkbox = document.getElementById('agree');
+const checkboxLabel = document.querySelector('.footer__checkbox-label');
+
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    checkboxLabel.classList.add('footer__checkbox-label_checked');
+  } else {
+    checkboxLabel.classList.remove('footer__checkbox-label_checked');
+  }
+});
+
