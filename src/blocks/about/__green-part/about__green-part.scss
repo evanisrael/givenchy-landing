@@ -1,7 +1,8 @@
-.about__first-part {
+.about__green-part {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  position: relative;
 
   @media screen and (max-width: 767px) {
     flex-direction: column;
