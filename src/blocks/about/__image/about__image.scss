@@ -4,7 +4,7 @@
   height: auto;
 }
 
-.about__first-part .about__image {
+.about__red-part .about__image {
   @media screen and (max-width: 1439px) {
     max-width: 364px;
     max-height: 452px;
@@ -16,7 +16,7 @@
   }
 }
 
-.about__second-part .about__image {
+.about__white-part .about__image {
   @media screen and (max-width: 1439px) {
     max-width: 304px;
     max-height: 304px;
@@ -27,7 +27,7 @@
   }
 }
 
-.about__third-part .about__image {
+.about__green-part .about__image {
   @media screen and (max-width: 1439px) {
     max-width: 485px;
     max-height: 607px;
