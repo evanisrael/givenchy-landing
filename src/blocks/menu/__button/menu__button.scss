@@ -8,8 +8,7 @@
   border: none;
   background-color: $black;
   padding: 0;
-  position: absolute;
-  top: 20px;
+  position: relative;
 
   &:hover {
     cursor: pointer;
@@ -21,5 +20,6 @@
     max-height: 24px;
     max-width: 24px;
     left: 20px;
+    top: 20px;
   }
 }

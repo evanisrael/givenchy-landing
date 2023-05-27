@@ -3,6 +3,9 @@
   flex-direction: column;
   gap: 80px;
   justify-content: center;
+  grid-row: 2 / span 1;
+  position: relative;
+  bottom: 50%;
 
   @media screen and (max-width: 1439px) {
     max-width: 440px;
@@ -12,5 +15,6 @@
     align-self: center;
     max-width: 296px;
     gap: 40px;
+    left: 10px;
   }
 }
