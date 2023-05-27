@@ -10,7 +10,7 @@
 
 ## Welcome To The Givenchy Spring Summer 2021 Landing Page Project!
 
-*This repository showcases my work as a Fullstack Developer during my studies at Yandex Practicum. The goal of this project was to create a visually stunning and responsive landing page for Givenchy's Spring Summer 2021 collection, designed by Matthew M. Williams.*
+*This repository showcases my work as a Fullstack Developer student during my studies at Yandex Practicum. The goal of this project was to create a visually stunning and responsive landing page for Givenchy's Spring Summer 2021 collection, designed by Matthew M. Williams.*
 
 ## Technologies Used
 <div align="center">
