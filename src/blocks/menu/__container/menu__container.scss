@@ -1,0 +1,21 @@
+.menu__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  width: 480px;
+  background-color: $black;
+  padding: 20px;
+  min-height: 100vh;
+  margin-right: auto;
+
+  @media screen and (max-width: 1439px) {
+    max-width: 460px;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 320px;
+    max-width: 320px;
+    padding: 0;
+  }
+}

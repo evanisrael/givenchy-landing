@@ -1,0 +1,21 @@
+.about__white-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (min-width: 1440px) {
+    align-items: normal;
+  }
+
+  @media screen and (max-width: 1439px) {
+    gap: 60px;
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 0;
+  }
+}

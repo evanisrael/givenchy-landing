@@ -1,0 +1,15 @@
+.about__text {
+  @include lead;
+  letter-spacing: 0.02em;
+  margin: 0;
+  z-index: 10;
+
+  @media screen and (max-width: 767px) {
+    letter-spacing: normal;
+  }
+}
+
+.about__white-part .about__text {
+  @include text;
+  letter-spacing: normal;
+}

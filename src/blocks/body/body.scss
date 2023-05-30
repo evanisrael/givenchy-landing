@@ -1,0 +1,19 @@
+.body {
+  font-family: $base-font-family;
+  
+  &::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $white;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $black;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: $light-grey;
+  }
+}

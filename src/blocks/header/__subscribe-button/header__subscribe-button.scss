@@ -1,0 +1,14 @@
+.header__subscribe-button {
+  color: $white;
+  background-color: $black;
+  padding: 12px 30.5px;
+  text-decoration: none;
+  max-width: 350px;
+  max-height: 48px;
+
+  @media screen and (max-width: 767px) {
+    padding: 12px 13.5px;
+    width: 280px;
+    height: 44px;
+  }
+}

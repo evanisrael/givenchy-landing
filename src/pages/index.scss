@@ -1,0 +1,60 @@
+@import "../vendor/normalize.scss";
+@import "../vendor/fonts.css";
+
+@import "../utils/variables.scss";
+@import "../utils/mixins.scss";
+
+@import '../blocks/about/about.scss';
+@import '../blocks/content/content';
+@import '../blocks/footer/footer.scss';
+@import '../blocks/header/header.scss';
+@import '../blocks/looks/looks.scss';
+@import '../blocks/page/page.scss';
+@import '../blocks/body/body.scss';
+
+@import '../blocks/about/__container/about__container.scss';
+@import '../blocks/about/__subtitle/about__subtitle.scss';
+@import '../blocks/about/__title/about__title.scss';
+@import '../blocks/about/__title-container/about__title-container.scss';
+@import '../blocks/about/__red-part/about__red-part.scss';
+@import '../blocks/about/__white-part/about__white-part.scss';
+@import '../blocks/about/__green-part/about__green-part.scss';
+@import '../blocks/about/__image/about__image.scss';
+@import '../blocks/about/__text/about__text.scss';
+@import '../blocks/about/__text-container/about__text-container.scss';
+@import '../blocks/about/__animation/about__animation.scss';
+
+@import '../blocks/looks/__title/looks__title.scss';
+@import '../blocks/looks/__image-container/looks__image-container.scss';
+
+@import '../blocks/header/__container/header__container.scss';
+@import '../blocks/header/__image/header__image.scss';
+@import '../blocks/header/__title/header__title.scss';
+@import '../blocks/header/__button/header__button.scss';
+@import '../blocks/header/__text-container/header__text-container.scss';
+
+@import '../blocks/footer/__container/footer__container.scss';
+@import '../blocks/footer/__text/footer__text.scss';
+@import '../blocks/footer/__fieldset/footer__fieldset.scss';
+@import '../blocks/footer/__submit-container/footer__submit-container.scss';
+@import '../blocks/footer/__button/footer__button.scss';
+@import '../blocks/footer/__input/footer__input.scss';
+@import '../blocks/footer/__checkbox/footer__checkbox.scss';
+@import '../blocks/footer/__checkbox-container/footer__checkbox-container.scss';
+@import '../blocks/footer/__checkbox-text/footer__checkbox-text.scss';
+@import '../blocks/footer/__checkbox-label/footer__checkbox-label.scss'; 
+
+@import '../blocks/menu/menu.scss';
+@import '../blocks/menu/__container/menu__container.scss';
+@import '../blocks/menu/__button/menu__button.scss';
+@import '../blocks/menu/__link/menu__link.scss';
+@import '../blocks/menu/__links/menu__links.scss';
+
+@import '../blocks/section/__title/section__title.scss';
+@import '../blocks/looks/__image/looks__image.scss';
+@import '../blocks/looks/__image/_show/looks__image_show.scss';
+@import '../blocks/header/__button-image/header__button-image.scss';
+@import '../blocks/header/__title-line/header__title-line.scss';
+@import '../blocks/header/__menu-button/header__menu-button.scss';
+@import '../blocks/header/__subscribe-button/header__subscribe-button.scss';
+@import '../blocks/footer/__checkbox-label/_checked/footer__checkbox-label.scss';

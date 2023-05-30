@@ -1,0 +1,12 @@
+.menu__link {
+  text-align: center;
+  @include text;
+  text-decoration: none;
+  color: $white;
+  
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+  }
+}

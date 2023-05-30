@@ -1,0 +1,33 @@
+.about__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 700px;
+  margin: 0;
+  opacity: 0;
+
+  @media screen and (max-width: 1439px) {
+    max-width: 364px;
+  }
+}
+
+.about__white-part .about__text-container {
+  @media screen and (max-width: 1439px) {
+    max-width: 373px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 167px;
+  }
+}
+
+
+.about__green-part .about__text-container {
+  position: absolute;
+  left: 0;
+  z-index: 9;
+
+  @media screen and (max-width: 767px) {
+    position: initial;
+  }
+}

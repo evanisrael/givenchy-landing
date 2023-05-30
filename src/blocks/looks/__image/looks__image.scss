@@ -1,0 +1,25 @@
+.looks__image {
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s;
+
+  &:nth-of-type(7) {
+    @media screen and (max-width: 1439px) {
+      display: none;
+    }
+  
+    @media screen and (max-width: 767px) {
+      display: grid;
+    }
+  }
+
+  &:nth-of-type(8) {
+    @media screen and (max-width: 1439px) {
+      display: none;
+    }
+  
+    @media screen and (max-width: 767px) {
+      display: grid;
+    }
+  }
+}

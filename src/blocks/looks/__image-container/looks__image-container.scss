@@ -1,0 +1,19 @@
+.looks__image-container {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  @media screen and (max-width: 1439px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 729px;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 767px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 729px;
+  }
+}

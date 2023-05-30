@@ -1,0 +1,33 @@
+.about__image {
+  opacity: 0;
+  max-width: 100%;
+  height: auto;
+  
+  .about__red-part & {
+    @media screen and (max-width: 1439px) {
+      max-width: 364px;
+      max-height: 452px;
+      right: 54px;
+    }
+  }
+
+  .about__white-part & {
+    @media screen and (max-width: 1439px) {
+      max-width: 304px;
+      max-height: 304px;
+    }
+  }
+
+  .about__green-part & {
+    @media screen and (max-width: 1439px) {
+      max-width: 485px;
+      max-height: 607px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__image {
+    max-width: 280px !important;
+  }
+}
